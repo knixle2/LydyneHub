@@ -26,6 +26,10 @@ ScriptsSection:NewButton("c00lkid gui", "lmfao ur funny", function()
     loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
 end)
 
+ScriptsSection:NewButton("Nexo GUI", "Animate Hats", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XeneonPlays/Nexo/main/NexoAnimator'),true))()
+end)
+
 local ResetSection = Tab:NewSection("Respawn")
 ResetSection:NewButton("Respawn", "Respawns yourself", function()
     game:GetService("Players").LocalPlayer.Character:Destroy()
