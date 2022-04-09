@@ -32,3 +32,7 @@ ResetSection:NewButton("Respawn", "Respawns yourself", function()
 end)
 
 local Tab = Window:NewTab("Credits")
+local CreditsSection = Tab:NewSection("Made By")
+CreditsSection:NewButton("Created by: COT VPN#2135", "https://discord.gg/pu8Jy8qh", function()
+    print("join rn")
+end)
