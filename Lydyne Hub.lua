@@ -11,15 +11,31 @@ ScriptsSection:NewButton("Levitating Sniper", "Hats needed: Cyberpunk Sniper", f
     loadstring(game:HttpGet("https://pastebin.com/raw/bPfikJvJ", true))()
 end)
 
+ScriptsSection:NewButton("FE Attack Cat", "Hats needed: Black Kitten Head Loaf", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/gfwzwWub", true))()
+end)
+
+ScriptsSection:NewButton("FE Slasher", "Hats needed: Slasher(Bundle: Grey)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/RDkG07s2", true))()
+end)
+
+ScriptsSection:NewButton("FE SCP 096", "Hats needed:Fedora:Peru,Usa,Philips,Brazil;brown hair", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PdZWHeKx", true))()
+end)
+
 local ScriptsSection = Tab:NewSection("FE Scripts (no hats)")
-ScriptsSection:NewButton("FE Spider (no respawn)", "Turns you into 2 legged spider - made by Unknown - reset doe", function()
+ScriptsSection:NewButton("FE Spider (no respawn)", "Turns you into 2 legged spider - made by Unknown - no reset", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/NnewD07n", true))()
     print("You r now spider")
 end)
 
 local ScriptsSection = Tab:NewSection("Guis")
-ScriptsSection:NewButton("Troll GUI", "ya know wat it does(you dont)", function()
+ScriptsSection:NewButton("CMDS GUI", "ya know wat it does(you dont)", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/NN5P4nQE'),true))()
+end)
+
+ScriptsSection:NewButton("Net Bypass Script", "makes so ur parts dont fall", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/Cu7bKQWN'),true))()
 end)
 
 ScriptsSection:NewButton("c00lkid gui", "lmfao ur funny", function()
@@ -28,6 +44,22 @@ end)
 
 ScriptsSection:NewButton("Nexo GUI", "Animate Hats", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/XeneonPlays/Nexo/main/NexoAnimator'),true))()
+end)
+
+ScriptsSection:NewButton("Chill GUI", "U chill and music", function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/XmHFdTij"))()
+end)
+
+ScriptsSection:NewButton("Block spammer", "key = idontknowhowtoenterakey", function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/jWz5zJWt"))()
+end)
+
+ScriptsSection:NewButton("Search Engine", "wow very cool", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+end)
+
+ScriptsSection:NewButton("FE troll GUI", "Sum kinda hub", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/wDh1eTdX"))()
 end)
 
 local ResetSection = Tab:NewSection("Respawn")
